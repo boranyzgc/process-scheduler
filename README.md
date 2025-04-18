@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Process Scheduler Simulation
 
 A simple C++ console application to simulate basic CPU scheduling algorithms, developed as a part of Operating Systems coursework.
@@ -38,3 +39,6 @@ P2        1              3            3              6
 Average Waiting Time: 2.67
 Average Turnaround Time: 5.33
 
+=======
+# Process-Scheduler-Simulation
+>>>>>>> e674f5729789a830516717986e810e454c0f3a7e
