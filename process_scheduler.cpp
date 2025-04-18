@@ -14,7 +14,7 @@ struct Process {
     int finishTime = 0;
 };
 
-// FCFS algoritması
+
 void calculateFCFS(vector<Process>& processes) {
     int currentTime = 0;
     for (auto& p : processes) {
@@ -27,7 +27,7 @@ void calculateFCFS(vector<Process>& processes) {
     }
 }
 
-// Round Robin algoritması
+
 void calculateRR(vector<Process>& processes, int quantum) {
     int currentTime = 0;
     queue<int> q;
@@ -76,7 +76,6 @@ void calculateRR(vector<Process>& processes, int quantum) {
     }
 }
 
-// Ortak çıktı fonksiyonu
 void printResults(const vector<Process>& processes, const string& method) {
     float totalWaiting = 0, totalTurnaround = 0;
 
