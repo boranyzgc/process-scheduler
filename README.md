@@ -2,6 +2,8 @@
 # Process Scheduler Simulation
 
 A simple C++ console application to simulate basic CPU scheduling algorithms, developed as a part of Operating Systems coursework.
+  This project was implemented as a quick demonstration of linked list and basic file structuring for portfolio purposes.
+
 
 ## 🧠 Algorithms Implemented
 
